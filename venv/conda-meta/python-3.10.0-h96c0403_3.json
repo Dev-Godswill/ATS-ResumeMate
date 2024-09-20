@@ -16,8 +16,7 @@
     "zlib >=1.2.11,<1.3.0a0",
     "pip"
   ],
-  "extracted_package_dir": "C:\\Users\\daudu\\anaconda3\\pkgs\\python-3.10.0-h96c0403_3",
-  "features": "",
+  "extracted_package_dir": "C:\\Users\\daudu\\miniconda3\\pkgs\\python-3.10.0-h96c0403_3",
   "files": [
     "DLLs/_asyncio.pyd",
     "DLLs/_bz2.pyd",
@@ -2399,12 +2398,12 @@
   "fn": "python-3.10.0-h96c0403_3.tar.bz2",
   "license": "Python-2.0",
   "link": {
-    "source": "C:\\Users\\daudu\\anaconda3\\pkgs\\python-3.10.0-h96c0403_3",
+    "source": "C:\\Users\\daudu\\miniconda3\\pkgs\\python-3.10.0-h96c0403_3",
     "type": 1
   },
   "md5": "b786576644c7a765c98e169fd84e4ff0",
   "name": "python",
-  "package_tarball_full_path": "C:\\Users\\daudu\\anaconda3\\pkgs\\python-3.10.0-h96c0403_3.tar.bz2",
+  "package_tarball_full_path": "C:\\Users\\daudu\\miniconda3\\pkgs\\python-3.10.0-h96c0403_3.tar.bz2",
   "paths_data": {
     "paths": [
       {
@@ -19048,8 +19047,7 @@
   "sha256": "6392507984049c49d35456ce402e70e6131ca3b126312f317c96dc5c2793968b",
   "size": 15996319,
   "subdir": "win-64",
-  "timestamp": 1636572178295,
-  "track_features": "",
+  "timestamp": 1636572178000,
   "url": "https://repo.anaconda.com/pkgs/main/win-64/python-3.10.0-h96c0403_3.tar.bz2",
   "version": "3.10.0"
 }

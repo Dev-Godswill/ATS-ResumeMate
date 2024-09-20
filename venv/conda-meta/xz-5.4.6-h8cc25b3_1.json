@@ -7,8 +7,7 @@
     "vc >=14.1,<15.0a0",
     "vs2015_runtime >=14.16.27012,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\daudu\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_1",
-  "features": "",
+  "extracted_package_dir": "C:\\Users\\daudu\\miniconda3\\pkgs\\xz-5.4.6-h8cc25b3_1",
   "files": [
     "Library/bin/liblzma.dll",
     "Library/bin/lzcat.exe",
@@ -41,17 +40,14 @@
     ".nonadmin"
   ],
   "fn": "xz-5.4.6-h8cc25b3_1.conda",
-  "legacy_bz2_md5": "fe471fd8b5a3d77be6fa5dbf9b99dafb",
-  "legacy_bz2_size": 1432281,
   "license": "LGPL-2.1-or-later and GPL-2.0-or-later and 0BSD",
-  "license_family": "GPL2",
   "link": {
-    "source": "C:\\Users\\daudu\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_1",
+    "source": "C:\\Users\\daudu\\miniconda3\\pkgs\\xz-5.4.6-h8cc25b3_1",
     "type": 1
   },
   "md5": "cd89b06b0e59712386f00a41fb2dec32",
   "name": "xz",
-  "package_tarball_full_path": "C:\\Users\\daudu\\anaconda3\\pkgs\\xz-5.4.6-h8cc25b3_1.conda",
+  "package_tarball_full_path": "C:\\Users\\daudu\\miniconda3\\pkgs\\xz-5.4.6-h8cc25b3_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -257,8 +253,7 @@
   "sha256": "c2ae3cfa590f71bfdd40426fe6e21967543187ecee41d74d6b36be95106c4583",
   "size": 624080,
   "subdir": "win-64",
-  "timestamp": 1714515119689,
-  "track_features": "",
+  "timestamp": 1714515119000,
   "url": "https://repo.anaconda.com/pkgs/main/win-64/xz-5.4.6-h8cc25b3_1.conda",
   "version": "5.4.6"
 }

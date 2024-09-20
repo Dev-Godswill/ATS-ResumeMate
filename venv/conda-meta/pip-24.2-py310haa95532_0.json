@@ -8,8 +8,7 @@
     "setuptools",
     "wheel"
   ],
-  "extracted_package_dir": "C:\\Users\\daudu\\anaconda3\\pkgs\\pip-24.2-py310haa95532_0",
-  "features": "",
+  "extracted_package_dir": "C:\\Users\\daudu\\miniconda3\\pkgs\\pip-24.2-py310haa95532_0",
   "files": [
     "Lib/site-packages/pip-24.2.dist-info/AUTHORS.txt",
     "Lib/site-packages/pip-24.2.dist-info/INSTALLER",
@@ -869,17 +868,14 @@
     ".nonadmin"
   ],
   "fn": "pip-24.2-py310haa95532_0.conda",
-  "legacy_bz2_md5": "a34dd1afc9b1baea5293e6acf2fe0711",
-  "legacy_bz2_size": 2615232,
   "license": "MIT",
-  "license_family": "MIT",
   "link": {
-    "source": "C:\\Users\\daudu\\anaconda3\\pkgs\\pip-24.2-py310haa95532_0",
+    "source": "C:\\Users\\daudu\\miniconda3\\pkgs\\pip-24.2-py310haa95532_0",
     "type": 1
   },
   "md5": "5ceabaaacd0b4fdc6b5ca0e7c70c43bf",
   "name": "pip",
-  "package_tarball_full_path": "C:\\Users\\daudu\\anaconda3\\pkgs\\pip-24.2-py310haa95532_0.conda",
+  "package_tarball_full_path": "C:\\Users\\daudu\\miniconda3\\pkgs\\pip-24.2-py310haa95532_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -6874,8 +6870,7 @@
   "sha256": "c381c1bb4cb1460d5ba43bcf512a644b42d346a9fe831ed3cb29a655ebf3d2cb",
   "size": 2617679,
   "subdir": "win-64",
-  "timestamp": 1723485560196,
-  "track_features": "",
+  "timestamp": 1723485560000,
   "url": "https://repo.anaconda.com/pkgs/main/win-64/pip-24.2-py310haa95532_0.conda",
   "version": "24.2"
 }

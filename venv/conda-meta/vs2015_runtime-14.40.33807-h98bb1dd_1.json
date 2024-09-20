@@ -4,8 +4,7 @@
   "channel": "https://repo.anaconda.com/pkgs/main/win-64",
   "constrains": [],
   "depends": [],
-  "extracted_package_dir": "C:\\Users\\daudu\\anaconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1",
-  "features": "",
+  "extracted_package_dir": "C:\\Users\\daudu\\miniconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1",
   "files": [
     "Library/bin/api-ms-win-core-console-l1-1-0.dll",
     "Library/bin/api-ms-win-core-console-l1-2-0.dll",
@@ -124,15 +123,14 @@
     ".nonadmin"
   ],
   "fn": "vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
-  "legacy_bz2_md5": "a0f93c06400da31b9e6e0538eab91216",
-  "legacy_bz2_size": 2611238,
+  "license": "",
   "link": {
-    "source": "C:\\Users\\daudu\\anaconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1",
+    "source": "C:\\Users\\daudu\\miniconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1",
     "type": 1
   },
   "md5": "eb3566bfee017cb6cf82bd7c41441586",
   "name": "vs2015_runtime",
-  "package_tarball_full_path": "C:\\Users\\daudu\\anaconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
+  "package_tarball_full_path": "C:\\Users\\daudu\\miniconda3\\pkgs\\vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -997,8 +995,7 @@
   "sha256": "4eb1d09b250ffd93ea0616328fa318e8d616afe3981fd5c7d179a5cdab8b7336",
   "size": 1354377,
   "subdir": "win-64",
-  "timestamp": 1726064391949,
-  "track_features": "",
+  "timestamp": 1726064391000,
   "url": "https://repo.anaconda.com/pkgs/main/win-64/vs2015_runtime-14.40.33807-h98bb1dd_1.conda",
   "version": "14.40.33807"
 }

@@ -1,8 +1,8 @@
-prefix=C:/Users/daudu/Downloads/ATS Resume/venv/Library
-exec_prefix=C:/Users/daudu/Downloads/ATS Resume/venv/Library
-libdir=C:/Users/daudu/Downloads/ATS Resume/venv/Library/lib
-sharedlibdir=C:/Users/daudu/Downloads/ATS Resume/venv/Library/lib
-includedir=C:/Users/daudu/Downloads/ATS Resume/venv/Library/include
+prefix=C:/Users/daudu/Downloads/ATS Resume/ATS-ResumeMate/venv/Library
+exec_prefix=C:/Users/daudu/Downloads/ATS Resume/ATS-ResumeMate/venv/Library
+libdir=C:/Users/daudu/Downloads/ATS Resume/ATS-ResumeMate/venv/Library/lib
+sharedlibdir=C:/Users/daudu/Downloads/ATS Resume/ATS-ResumeMate/venv/Library/lib
+includedir=C:/Users/daudu/Downloads/ATS Resume/ATS-ResumeMate/venv/Library/include
 
 Name: zlib
 Description: zlib compression library

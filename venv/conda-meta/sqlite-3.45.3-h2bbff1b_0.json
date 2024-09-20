@@ -7,8 +7,7 @@
     "vc >=14.1,<15.0a0",
     "vs2015_runtime >=14.16.27012,<15.0a0"
   ],
-  "extracted_package_dir": "C:\\Users\\daudu\\anaconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0",
-  "features": "",
+  "extracted_package_dir": "C:\\Users\\daudu\\miniconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0",
   "files": [
     "Library/bin/sqlite3.dll",
     "Library/bin/sqlite3.exe",
@@ -18,17 +17,14 @@
     ".nonadmin"
   ],
   "fn": "sqlite-3.45.3-h2bbff1b_0.conda",
-  "legacy_bz2_md5": "833b93a2daade3407898f15588945d83",
-  "legacy_bz2_size": 1440481,
   "license": "blessing",
-  "license_family": "Other",
   "link": {
-    "source": "C:\\Users\\daudu\\anaconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0",
+    "source": "C:\\Users\\daudu\\miniconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0",
     "type": 1
   },
   "md5": "c5b3b929349655302bf811c45571da6d",
   "name": "sqlite",
-  "package_tarball_full_path": "C:\\Users\\daudu\\anaconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0.conda",
+  "package_tarball_full_path": "C:\\Users\\daudu\\miniconda3\\pkgs\\sqlite-3.45.3-h2bbff1b_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -73,8 +69,7 @@
   "sha256": "bb25d778d309491d947d3758ec79652aa637c1808041114b1bd45e8bdd7bd776",
   "size": 996331,
   "subdir": "win-64",
-  "timestamp": 1714488344682,
-  "track_features": "",
+  "timestamp": 1714488344000,
   "url": "https://repo.anaconda.com/pkgs/main/win-64/sqlite-3.45.3-h2bbff1b_0.conda",
   "version": "3.45.3"
 }

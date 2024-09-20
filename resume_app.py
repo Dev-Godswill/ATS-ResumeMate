@@ -238,7 +238,7 @@ elif page == "Analyze Resume":
     st.markdown(
         """
         <div style="text-align: right;">
-            Designed by: <strong>[Your Name]</strong>
+            Designed by: <strong>Godswill Daudu</strong>
         </div>
         """, unsafe_allow_html=True
     )
