@@ -128,9 +128,9 @@ if page == "Home":
     
     st.subheader("📬 Get in Touch")
     st.markdown("""
-    - **Email**: [your_email@example.com](mailto:your_email@example.com)
-    - **LinkedIn**: [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-    - **GitHub**: [github.com/yourprofile](https://github.com/yourprofile)
+    - **Email**: [godswilltheanalyst@gmail.com](mailto:godswilltheanalyst@gmail.com)
+    - **LinkedIn**: [https://uk.linkedin.com/in/daudugodswill](https://uk.linkedin.com/in/daudugodswill)
+    - **GitHub**: [https://github.com/Dev-Godswill/](https://github.com/Dev-Godswill/)
     """)
     
     # Contact Us Section
@@ -148,7 +148,7 @@ if page == "Home":
     st.markdown(
         """
         <div style="text-align: right;">
-            Designed by: <strong>[Your Name]</strong>
+            Designed by: <strong>Godswill Daudu</strong>
         </div>
         """, unsafe_allow_html=True
     )
