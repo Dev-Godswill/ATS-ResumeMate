@@ -1,4 +1,4 @@
-# <a name="ai-voicetranslator"></a> LinguaSpeak: Real-time Voice-to-Voice Translation in 6 Popular Languages
+# <a name="ai-resumemate"></a> ResumeMate: AI-Powered Resume Analyzer and Career Advisor
 
 ## Table of Contents
 - [Detailed Breakdown of the Code](#detailed-breakdown) 
