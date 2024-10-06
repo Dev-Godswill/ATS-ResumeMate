@@ -2,98 +2,93 @@
 
 ## Table of Contents
 - [Detailed Breakdown of the Code](#detailed-breakdown) 
+- [Code Breakdown by Segments](#code-breakdown-by-segments)
 - [Technologies Used](#technologies-used)
 - [How To Run the Code](#how-to-run-the-code)
 - [Contributing](#contributing)
 
 ## <a name="detailed-breakdown"></a> Detailed Breakdown of the Code
-The purpose of this Python script is to create an application that translates spoken English into six popular languages (Spanish, Turkish, Japanese, French, German, and Chinese) and plays back the translated text as speech. The program uses Gradio for creating the user interface, AssemblyAI for speech-to-text transcription, and ElevenLabs for text-to-speech generation.
+This code creates a Streamlit application called ResumeMate, which leverages Google's Generative AI (Gemini) to analyze resumes, identify strengths and weaknesses, and recommend job roles based on the candidate's CV. The application also provides a text-to-speech feature, allowing users to listen to resume insights aloud.
 
-**Skills Acquired:**
-* API integration (AssemblyAI, ElevenLabs)
-* File handling and text processing
-* Real-time user interface creation using Gradio
-* Error handling and exception management
-* Text translation via the translate library
+The app is interactive and has two major functionalities:
 
-Here’s a breakdown of the major segments in the code:
+1. **Home Page:** A user-friendly interface introducing the tool and its capabilities, including a contact form for inquiries.
+2. **Analyze Resume:** Users upload their resume and provide a job description. The AI then analyzes the resume, offering a summary, identifying strengths and weaknesses, recommending suitable roles, and even providing final thoughts and CV improvement suggestions.
 
-**a. Importing Libraries**
+## Code Breakdown by Segments
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/7699cd81615efc1e8d15a2cb6ba371f0dd2a6e2c/1.png">
+1. **Imports and Setup:**
+   
+<img width="722" alt="AI ResuemMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/11.png?raw=true">
 
-* Gradio creates the interface, allowing users to upload audio.
-* AssemblyAI handles the transcription of audio to text.
-* Translator translates English text into different languages.
-* ElevenLabs converts the translated text back into speech using various voices.
+This segment imports the necessary libraries and initializes the environment:
 
-**b. Global Configuration and Supported Languages**
+* **Streamlit:** Used for building the web interface.
+* **Google Generative AI:** To process text input (such as resume analysis).
+* **PyPDF2:** For extracting text from uploaded PDF resumes.
+* **pyttsx3:** For text-to-speech conversion.
+* **dotenv:** To securely manage API keys.
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/2.png?raw=true">
+2. **Core Functionality**
 
-API keys for external services (AssemblyAI and ElevenLabs) are globally defined here, and a dictionary of supported languages is set up, mapping language names to their respective language codes.
+<img width="722" alt="AI ResuemMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/12.png?raw=true">
 
-**c. Voice-to-Voice Functionality**
+This function interacts with the Gemini AI model, sending the resume data as input and receiving relevant responses.
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/3.png?raw=true">
+3. **Resume Analysis Functions**
 
-This function is the core of the app, transcribing an uploaded audio file, translating the transcribed text into multiple languages, and then converting the translations into speech.
+These functions define specific tasks to analyze the resume text, such as summarizing the resume, identifying strengths/weaknesses, and suggesting job roles.
 
-**d. Audio Transcription**
+<img width="722" alt="AI ResumeMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/13.png?raw=true">
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/4.png?raw=true">
+4. **Text-to-Speech**
 
-This function uses the AssemblyAI API to convert audio files to text.
+<img width="722" alt="AI ResumeMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/14.png?raw=true">
 
-**e. Text Translation**
+This function uses pyttsx3 to convert text (such as resume summaries or recommendations) to speech, making it accessible for users who prefer auditory feedback.
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/5.png?raw=true">
+5. **Streamlit User Interface**
 
-This function translates the transcribed English text into the target language using the translate library.
+The following section builds the interactive web application using Streamlit. There are two pages:
 
-**f. Text-to-Speech Conversion**
+* **Home:** Describes the tool's purpose and capabilities, includes contact information.
+* **Analyze Resume:** Allows users to upload a resume, input a job description, and receive AI-driven insights.
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/6.png?raw=true">
+<img width="722" alt="AI ResumeMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/15.png?raw=true">
 
-The translated text is converted into speech using ElevenLabs' API, and the output is saved as an MP3 file.
-
-**g. Gradio Interface**
-
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/7.png?raw=true">
-
-This section creates the interactive interface using Gradio, allowing users to upload audio, view translations in text, and listen to them in the target language.
+This section provides a seamless user experience, guiding the user through resume analysis tasks like summarizing or matching the resume with job descriptions.
 
 ## Technologies Used
-* **Gradio:** A framework for building easy-to-use user interfaces, especially for machine learning models.
-* **AssemblyAI:** A speech-to-text service that converts spoken language into text.
-* **Translate Library:** Handles the text translation from English to the supported languages.
-* **ElevenLabs:** An API that converts text into speech with various voice options.
-* **UUID and Pathlib:** For generating unique file names and managing file paths.
+1. **Streamlit:** A powerful Python library used for building interactive web apps quickly.
+2. **Google Generative AI (Gemini):** Used to process and analyze natural language input, allowing the extraction of meaningful insights from resumes.
+3. **PyPDF2:** Helps extract text from PDF resumes.
+4. **pyttsx3:** Used to add text-to-speech capabilities, making the app accessible to a broader audience.
+5. **Python-dotenv:** Handles the loading of environment variables, particularly for secure API key management.
 
 ## How To Run the Code
-Before running the code, ensure that the necessary dependencies are installed and API keys are correctly configured.
+1. **Clone the Project:** Ensure you have a local copy of the project repository.
 
-**Requirements:**
-You'll need to download the requirements.txt file to install the necessary libraries. Below is an example content of the requirements.txt:
+2. **Install Required Libraries:** The requirements.txt file contains all the necessary dependencies. To install them, run:
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/8.png?raw=true">
+<img width="722" alt="AI ResumeMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/8.png?raw=true">
 
-**Steps to Run the Code:**
+3. **Set Up API Keys:**
 
-1. **Install Dependencies:**
-First, create a virtual environment and install the required packages by running:
+* Create a .env file in the project root.
+* Add your Google API key for Generative AI in the .env file as follows:
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/9.png?raw=true">
+<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/17.png?raw=true">
 
-2. **Add API Keys:**
-* Replace ASSEMBLY_AI_API_KEY = "[]" with your actual AssemblyAI API key.
-* Replace ELEVEN_LABS_API_KEY = "[]" with your ElevenLabs API key.
-* For ElevenLabs, also provide a valid voice_id in the text_to_speech function. [SignUp on ElevenLabs](https://tinyurl.com/elevenlabs24)
+4. **Run the Application:** To launch the Streamlit app, execute the following command in your terminal:
+   
+<img width="722" alt="AI ResumeMate" src="https://github.com/Dev-Godswill/picture-files/blob/main/18.png?raw=true">
 
-3. **Run the Script:**
-Launch the application using:
+5. **Upload a Resume:**
 
-<img width="722" alt="AI Voice Translator" src="https://github.com/Dev-Godswill/picture-files/blob/main/10.png?raw=true">
+* Navigate to the "Analyze Resume" page.
+* Upload a PDF version of your resume.
+* Paste the job description in the provided area.
+* Use the available buttons to analyze your resume, extract insights, or receive feedback.
 
 ## Contributing
 Contributions to this project is welcome! If you'd like to contribute, please follow these steps:
